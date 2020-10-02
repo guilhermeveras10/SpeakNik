@@ -13,6 +13,7 @@
 		5A269433252777210041F685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A269431252777210041F685 /* Main.storyboard */; };
 		5A269435252777210041F685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A269434252777210041F685 /* Assets.xcassets */; };
 		5A269438252777210041F685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A269436252777210041F685 /* LaunchScreen.storyboard */; };
+		805E530383630C89019868F7 /* Pods_SpeakNik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4FFB07E4FF80795396CA593 /* Pods_SpeakNik.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		5A269434252777210041F685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A269437252777210041F685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A269439252777210041F685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93EFE7913734F17E38209177 /* Pods-SpeakNik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeakNik.debug.xcconfig"; path = "Target Support Files/Pods-SpeakNik/Pods-SpeakNik.debug.xcconfig"; sourceTree = "<group>"; };
+		B4FFB07E4FF80795396CA593 /* Pods_SpeakNik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeakNik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5FA6E8E2DADC75931064024 /* Pods-SpeakNik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeakNik.release.xcconfig"; path = "Target Support Files/Pods-SpeakNik/Pods-SpeakNik.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				805E530383630C89019868F7 /* Pods_SpeakNik.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DE1A696BDF89BFFB934394C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4FFB07E4FF80795396CA593 /* Pods_SpeakNik.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		553C3ADC00C06A2E263738BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93EFE7913734F17E38209177 /* Pods-SpeakNik.debug.xcconfig */,
+				F5FA6E8E2DADC75931064024 /* Pods-SpeakNik.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5A26941F252777200041F685 = {
 			isa = PBXGroup;
 			children = (
 				5A26942A252777210041F685 /* SpeakNik */,
 				5A269429252777210041F685 /* Products */,
+				553C3ADC00C06A2E263738BB /* Pods */,
+				1DE1A696BDF89BFFB934394C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A26943C252777210041F685 /* Build configuration list for PBXNativeTarget "SpeakNik" */;
 			buildPhases = (
+				5CF87CA03E9626EA72D3BDC8 /* [CP] Check Pods Manifest.lock */,
 				5A269424252777210041F685 /* Sources */,
 				5A269425252777210041F685 /* Frameworks */,
 				5A269426252777210041F685 /* Resources */,
+				2C83C038C98ABE3050E9CDE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C83C038C98ABE3050E9CDE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeakNik/Pods-SpeakNik-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeakNik/Pods-SpeakNik-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeakNik/Pods-SpeakNik-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CF87CA03E9626EA72D3BDC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeakNik-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A269424252777210041F685 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		5A26943D252777210041F685 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93EFE7913734F17E38209177 /* Pods-SpeakNik.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +369,7 @@
 		};
 		5A26943E252777210041F685 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5FA6E8E2DADC75931064024 /* Pods-SpeakNik.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
