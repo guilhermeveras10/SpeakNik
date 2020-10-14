@@ -3,28 +3,72 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A162FEA2530DF4900E5CE11 /* CourcesCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A162FE92530DF4900E5CE11 /* CourcesCVC.swift */; };
 		5A26942C252777210041F685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A26942B252777210041F685 /* AppDelegate.swift */; };
 		5A26942E252777210041F685 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A26942D252777210041F685 /* SceneDelegate.swift */; };
-		5A269430252777210041F685 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A26942F252777210041F685 /* ViewController.swift */; };
-		5A269433252777210041F685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A269431252777210041F685 /* Main.storyboard */; };
 		5A269435252777210041F685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A269434252777210041F685 /* Assets.xcassets */; };
 		5A269438252777210041F685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A269436252777210041F685 /* LaunchScreen.storyboard */; };
+		5A2AFD38252F3947009F9871 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2AFD37252F3947009F9871 /* TabBar.storyboard */; };
+		5A2AFD3A252F399C009F9871 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2AFD39252F399C009F9871 /* Home.storyboard */; };
+		5A2AFD3C252F39BB009F9871 /* Cources.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2AFD3B252F39BB009F9871 /* Cources.storyboard */; };
+		5A2AFD3E252F39E0009F9871 /* Conquists.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2AFD3D252F39E0009F9871 /* Conquists.storyboard */; };
+		5A2AFD40252F3A20009F9871 /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2AFD3F252F3A20009F9871 /* Notification.storyboard */; };
+		5A2AFD42252F3A42009F9871 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2AFD41252F3A42009F9871 /* Settings.storyboard */; };
+		5A8DE416252BC741006BB99B /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DE415252BC741006BB99B /* Montserrat-Regular.ttf */; };
+		5A8DE418252BC8A2006BB99B /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DE417252BC8A1006BB99B /* Montserrat-Bold.ttf */; };
+		5A9BBFF72530A69600505412 /* MenuTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BBFF62530A69600505412 /* MenuTBC.swift */; };
+		5A9BBFFA2530AD2900505412 /* HomeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BBFF92530AD2900505412 /* HomeTVC.swift */; };
+		5AB66635252E421E00A7B417 /* LanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB66634252E421E00A7B417 /* LanguageVC.swift */; };
+		5AD360142537432C00940CA7 /* NotificationTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD360132537432C00940CA7 /* NotificationTVC.swift */; };
+		5AD360162537457A00940CA7 /* NotificationTVCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD360152537457A00940CA7 /* NotificationTVCC.swift */; };
+		5AD76AFD252E4C720040F27A /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD76AFC252E4C720040F27A /* Image.swift */; };
+		5AD76AFF252E4CD80040F27A /* LanguageTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD76AFE252E4CD80040F27A /* LanguageTVC.swift */; };
+		5AD76B01252E61A90040F27A /* FrequencyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD76B00252E61A90040F27A /* FrequencyVC.swift */; };
+		5AD76B03252E62AB0040F27A /* FrequencyTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD76B02252E62AB0040F27A /* FrequencyTVC.swift */; };
+		5AECB08D2527E2F400522D6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AECB08C2527E2F400522D6E /* Main.storyboard */; };
+		5AECB08F2527E9AC00522D6E /* LoginTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AECB08E2527E9AC00522D6E /* LoginTVC.swift */; };
+		5AECB0922527EA9200522D6E /* SignUpTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AECB0912527EA9200522D6E /* SignUpTVC.swift */; };
+		5AF4F23C2535FDE400A90090 /* CourcesTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4F23B2535FDE400A90090 /* CourcesTBC.swift */; };
+		5AF4F23E2535FE7000A90090 /* CourcesGeneralCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4F23D2535FE7000A90090 /* CourcesGeneralCVC.swift */; };
+		5AF4F2412535FF2400A90090 /* ConquistsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4F2402535FF2400A90090 /* ConquistsTVC.swift */; };
 		805E530383630C89019868F7 /* Pods_SpeakNik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4FFB07E4FF80795396CA593 /* Pods_SpeakNik.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A162FE92530DF4900E5CE11 /* CourcesCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourcesCVC.swift; sourceTree = "<group>"; };
 		5A269428252777210041F685 /* SpeakNik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakNik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A26942B252777210041F685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A26942D252777210041F685 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A26942F252777210041F685 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5A269432252777210041F685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A269434252777210041F685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A269437252777210041F685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A269439252777210041F685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A2AFD37252F3947009F9871 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		5A2AFD39252F399C009F9871 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		5A2AFD3B252F39BB009F9871 /* Cources.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cources.storyboard; sourceTree = "<group>"; };
+		5A2AFD3D252F39E0009F9871 /* Conquists.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Conquists.storyboard; sourceTree = "<group>"; };
+		5A2AFD3F252F3A20009F9871 /* Notification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
+		5A2AFD41252F3A42009F9871 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		5A8DE415252BC741006BB99B /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		5A8DE417252BC8A1006BB99B /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		5A9BBFF62530A69600505412 /* MenuTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTBC.swift; sourceTree = "<group>"; };
+		5A9BBFF92530AD2900505412 /* HomeTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTVC.swift; sourceTree = "<group>"; };
+		5AB66634252E421E00A7B417 /* LanguageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageVC.swift; sourceTree = "<group>"; };
+		5AD360132537432C00940CA7 /* NotificationTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTVC.swift; sourceTree = "<group>"; };
+		5AD360152537457A00940CA7 /* NotificationTVCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTVCC.swift; sourceTree = "<group>"; };
+		5AD76AFC252E4C720040F27A /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		5AD76AFE252E4CD80040F27A /* LanguageTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTVC.swift; sourceTree = "<group>"; };
+		5AD76B00252E61A90040F27A /* FrequencyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyVC.swift; sourceTree = "<group>"; };
+		5AD76B02252E62AB0040F27A /* FrequencyTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyTVC.swift; sourceTree = "<group>"; };
+		5AECB08C2527E2F400522D6E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5AECB08E2527E9AC00522D6E /* LoginTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTVC.swift; sourceTree = "<group>"; };
+		5AECB0912527EA9200522D6E /* SignUpTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTVC.swift; sourceTree = "<group>"; };
+		5AF4F23B2535FDE400A90090 /* CourcesTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourcesTBC.swift; sourceTree = "<group>"; };
+		5AF4F23D2535FE7000A90090 /* CourcesGeneralCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourcesGeneralCVC.swift; sourceTree = "<group>"; };
+		5AF4F2402535FF2400A90090 /* ConquistsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConquistsTVC.swift; sourceTree = "<group>"; };
 		93EFE7913734F17E38209177 /* Pods-SpeakNik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeakNik.debug.xcconfig"; path = "Target Support Files/Pods-SpeakNik/Pods-SpeakNik.debug.xcconfig"; sourceTree = "<group>"; };
 		B4FFB07E4FF80795396CA593 /* Pods_SpeakNik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeakNik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5FA6E8E2DADC75931064024 /* Pods-SpeakNik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeakNik.release.xcconfig"; path = "Target Support Files/Pods-SpeakNik/Pods-SpeakNik.release.xcconfig"; sourceTree = "<group>"; };
@@ -56,7 +100,6 @@
 				93EFE7913734F17E38209177 /* Pods-SpeakNik.debug.xcconfig */,
 				F5FA6E8E2DADC75931064024 /* Pods-SpeakNik.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +124,125 @@
 		5A26942A252777210041F685 /* SpeakNik */ = {
 			isa = PBXGroup;
 			children = (
+				5AD76B04252E63750040F27A /* Controllers */,
+				5AB66636252E423B00A7B417 /* View */,
+				5A8DE413252BC57E006BB99B /* Utils */,
 				5A26942B252777210041F685 /* AppDelegate.swift */,
 				5A26942D252777210041F685 /* SceneDelegate.swift */,
-				5A26942F252777210041F685 /* ViewController.swift */,
-				5A269431252777210041F685 /* Main.storyboard */,
 				5A269434252777210041F685 /* Assets.xcassets */,
 				5A269436252777210041F685 /* LaunchScreen.storyboard */,
 				5A269439252777210041F685 /* Info.plist */,
 			);
 			path = SpeakNik;
+			sourceTree = "<group>";
+		};
+		5A8DE413252BC57E006BB99B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5AD76AFB252E4C4F0040F27A /* Extension */,
+				5A8DE414252BC58B006BB99B /* Fonts */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5A8DE414252BC58B006BB99B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DE417252BC8A1006BB99B /* Montserrat-Bold.ttf */,
+				5A8DE415252BC741006BB99B /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5A9BBFF52530A65200505412 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBFF62530A69600505412 /* MenuTBC.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		5A9BBFF82530ACF500505412 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BBFF92530AD2900505412 /* HomeTVC.swift */,
+				5A162FE92530DF4900E5CE11 /* CourcesCVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5AB66636252E423B00A7B417 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AECB08C2527E2F400522D6E /* Main.storyboard */,
+				5A2AFD37252F3947009F9871 /* TabBar.storyboard */,
+				5A2AFD39252F399C009F9871 /* Home.storyboard */,
+				5A2AFD3B252F39BB009F9871 /* Cources.storyboard */,
+				5A2AFD3D252F39E0009F9871 /* Conquists.storyboard */,
+				5A2AFD3F252F3A20009F9871 /* Notification.storyboard */,
+				5A2AFD41252F3A42009F9871 /* Settings.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AD36012253742EF00940CA7 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				5AD360132537432C00940CA7 /* NotificationTVC.swift */,
+				5AD360152537457A00940CA7 /* NotificationTVCC.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		5AD76AFB252E4C4F0040F27A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5AD76AFC252E4C720040F27A /* Image.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5AD76B04252E63750040F27A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5AD36012253742EF00940CA7 /* Notification */,
+				5AF4F23F2535FEEA00A90090 /* Conquists */,
+				5AF4F23A2535FD2100A90090 /* Cources */,
+				5A9BBFF82530ACF500505412 /* Home */,
+				5A9BBFF52530A65200505412 /* Menu */,
+				5AECB0902527EA3300522D6E /* Credentials */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5AECB0902527EA3300522D6E /* Credentials */ = {
+			isa = PBXGroup;
+			children = (
+				5AECB08E2527E9AC00522D6E /* LoginTVC.swift */,
+				5AECB0912527EA9200522D6E /* SignUpTVC.swift */,
+				5AB66634252E421E00A7B417 /* LanguageVC.swift */,
+				5AD76AFE252E4CD80040F27A /* LanguageTVC.swift */,
+				5AD76B00252E61A90040F27A /* FrequencyVC.swift */,
+				5AD76B02252E62AB0040F27A /* FrequencyTVC.swift */,
+			);
+			path = Credentials;
+			sourceTree = "<group>";
+		};
+		5AF4F23A2535FD2100A90090 /* Cources */ = {
+			isa = PBXGroup;
+			children = (
+				5AF4F23B2535FDE400A90090 /* CourcesTBC.swift */,
+				5AF4F23D2535FE7000A90090 /* CourcesGeneralCVC.swift */,
+			);
+			path = Cources;
+			sourceTree = "<group>";
+		};
+		5AF4F23F2535FEEA00A90090 /* Conquists */ = {
+			isa = PBXGroup;
+			children = (
+				5AF4F2402535FF2400A90090 /* ConquistsTVC.swift */,
+			);
+			path = Conquists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +305,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A2AFD3A252F399C009F9871 /* Home.storyboard in Resources */,
+				5A8DE418252BC8A2006BB99B /* Montserrat-Bold.ttf in Resources */,
+				5A2AFD42252F3A42009F9871 /* Settings.storyboard in Resources */,
+				5A8DE416252BC741006BB99B /* Montserrat-Regular.ttf in Resources */,
 				5A269438252777210041F685 /* LaunchScreen.storyboard in Resources */,
+				5A2AFD3E252F39E0009F9871 /* Conquists.storyboard in Resources */,
 				5A269435252777210041F685 /* Assets.xcassets in Resources */,
-				5A269433252777210041F685 /* Main.storyboard in Resources */,
+				5A2AFD3C252F39BB009F9871 /* Cources.storyboard in Resources */,
+				5A2AFD38252F3947009F9871 /* TabBar.storyboard in Resources */,
+				5AECB08D2527E2F400522D6E /* Main.storyboard in Resources */,
+				5A2AFD40252F3A20009F9871 /* Notification.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,23 +368,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A269430252777210041F685 /* ViewController.swift in Sources */,
+				5AB66635252E421E00A7B417 /* LanguageVC.swift in Sources */,
+				5AD76AFD252E4C720040F27A /* Image.swift in Sources */,
 				5A26942C252777210041F685 /* AppDelegate.swift in Sources */,
+				5AECB0922527EA9200522D6E /* SignUpTVC.swift in Sources */,
+				5AD360142537432C00940CA7 /* NotificationTVC.swift in Sources */,
+				5A9BBFFA2530AD2900505412 /* HomeTVC.swift in Sources */,
 				5A26942E252777210041F685 /* SceneDelegate.swift in Sources */,
+				5AD76AFF252E4CD80040F27A /* LanguageTVC.swift in Sources */,
+				5AF4F2412535FF2400A90090 /* ConquistsTVC.swift in Sources */,
+				5A162FEA2530DF4900E5CE11 /* CourcesCVC.swift in Sources */,
+				5A9BBFF72530A69600505412 /* MenuTBC.swift in Sources */,
+				5AECB08F2527E9AC00522D6E /* LoginTVC.swift in Sources */,
+				5AD360162537457A00940CA7 /* NotificationTVCC.swift in Sources */,
+				5AF4F23C2535FDE400A90090 /* CourcesTBC.swift in Sources */,
+				5AD76B01252E61A90040F27A /* FrequencyVC.swift in Sources */,
+				5AF4F23E2535FE7000A90090 /* CourcesGeneralCVC.swift in Sources */,
+				5AD76B03252E62AB0040F27A /* FrequencyTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5A269431252777210041F685 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A269432252777210041F685 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5A269436252777210041F685 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -355,6 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJS8PX779X;
 				INFOPLIST_FILE = SpeakNik/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -373,6 +541,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJS8PX779X;
 				INFOPLIST_FILE = SpeakNik/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
